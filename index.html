@@ -30,7 +30,20 @@
 
       body.dark-mode .card,
       body.dark-mode .p-4 {
-        background-color: #1e1e1e !important;
+        background-color: #333333 !important;
+      }
+
+      body.dark-mode footer {
+        background: #0a0a0a !important;
+        border-top: 1px solid #222;
+      }
+
+      .hero-bg {
+        background: linear-gradient(135deg,#5b3be0,#8c62ff);
+      }
+
+      body.dark-mode .hero-bg {
+        background: linear-gradient(135deg,#2b2b5b,#3a3a7a);
       }
     </style>
 </head>
@@ -102,7 +115,7 @@
         <div class="p-4 rounded" style="background:#f3f0ff;">
           <div class="fs-2">💰</div>
           <h5>Expense Tracking</h5>
-          <p>Record and track all of your spending.</p>
+          <p>Record and track all of your spending accurately.</p>
         </div>
       </div>
 
@@ -110,7 +123,7 @@
         <div class="p-4 rounded" style="background:#f3f0ff;">
           <div class="fs-2">📊</div>
           <h5>Simple Analytics</h5>
-          <p>Visualization clean charts and graphics.</p>
+          <p>Visualization with clean charts and graphics.</p>
         </div>
       </div>
 
@@ -126,7 +139,7 @@
   </div>
 </section>
 
-<section class="py-5 text-center text-white" style="background:linear-gradient(135deg,#5b3be0,#8c62ff);">
+<section class="py-5 text-center text-white">
   <div class="container">
     <h2>Track and control your money today</h2>
     <p>Start managing your personal finances with Finote.</p>
@@ -154,7 +167,6 @@
 <script>
   const toggleBtn = document.getElementById("darkToggle");
 
-  // Load preference
   if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark-mode");
     toggleBtn.textContent = "☀️";

@@ -6,6 +6,22 @@ Laman _**landing page**_ sederhana untuk website catatan keuangan pribadi 'Finot
 - Bright Mode & Dark Mode Display
 - Responsive Display
 
+## Perintah Git Yang Digunakan
+| Perintah Git | Fungsi |
+|-------------|--------|
+| git init | Menginisialisasi repository Git baru di folder saat ini |
+| git clone <url_repo> | Mengunduh (menyalin) repository dari remote ke lokal |
+| git remote add origin <url_repo> | Menambahkan remote repository dengan nama "origin" |
+| git add | Menambahkan perubahan file ke staging area sebelum commit |
+| git commit -m (Pesan) | Menyimpan snapshot perubahan dengan pesan deskripsi |
+| git log (--oneline) (--graph) (--all) | Menampilkan riwayat commit dengan berbagai opsi tampilan |
+| git push origin (branch) | Mengirim commit dari lokal ke remote repository pada branch tertentu |
+| git pull | Mengambil dan menggabungkan perubahan terbaru dari remote ke lokal |
+| git branch | Menampilkan, membuat, atau menghapus branch |
+| git checkout (branch) | Berpindah ke branch tertentu |
+| git rebase (branch) | Menggabungkan perubahan dengan memindahkan commit ke atas branch target |
+| git rebase -i <commit> | Melakukan rebase interaktif untuk mengedit, menggabungkan, atau menghapus commit |
+
 ## Deployment
 1. Gunakan command: git clone https://github.com/flexsync-gh/praktikum-git_25_559909_SV_26367.git ATAU unduh source code secara manual (dari code atau releases).
 2. Buka folder projek yang telah di-clone/diunduh.
@@ -13,6 +29,8 @@ Laman _**landing page**_ sederhana untuk website catatan keuangan pribadi 'Finot
 
 ## Github Log
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a0fd290d-de3b-4651-a49a-a796533453df" />
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/1ea51d1b-e5b8-43dd-8b26-7e2eb53f5acc" />
+
 
 ## Branch 'Main' Protection Rule
 <img width="1915" height="968" alt="image" src="https://github.com/user-attachments/assets/d5ea2ca6-c728-460f-8cea-63956717178a" />
